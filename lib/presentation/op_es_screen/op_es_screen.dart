@@ -65,6 +65,6 @@ class OpEsScreen extends GetWidget<OpEsController> {
   }
 
   onTapTxtSair() {
-    Get.toNamed(AppRoutes.loginCadastreSeScreen);
+    Get.toNamed(AppRoutes.telaInicialPrimeiroUsoDoAppScreen);
   }
 }

@@ -158,7 +158,9 @@ class AvaliaOSnapeScreen extends GetWidget<AvaliaOSnapeController> {
                                                       CustomButton(
                                                           width: 129,
                                                           text:
-                                                              "lbl_enviar".tr),
+                                                              "lbl_enviar".tr,
+                                                          onTap:
+                                                            onTapBtnCancelar),
                                                       CustomButton(
                                                           width: 129,
                                                           text:
@@ -177,6 +179,10 @@ class AvaliaOSnapeScreen extends GetWidget<AvaliaOSnapeController> {
   }
 
   onTapBtnCancelar() {
+    Get.toNamed(AppRoutes.perfilProfessorSnapeScreen);
+  }
+
+  onTapBtnEnviar() {
     Get.toNamed(AppRoutes.perfilProfessorSnapeScreen);
   }
 }

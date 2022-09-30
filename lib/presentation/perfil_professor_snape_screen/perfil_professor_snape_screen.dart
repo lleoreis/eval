@@ -13,9 +13,9 @@ class PerfilProfessorSnapeScreen
             body: SingleChildScrollView(
                 scrollDirection: Axis.vertical,
                 child: Container(
-                    height: getVerticalSize(1115.00),
-                    width: getHorizontalSize(340.00),
-                    margin: getMargin(left: 12, top: 12, right: 8),
+                    height: getVerticalSize(970.00),
+                    width: getHorizontalSize(360.00),
+                    margin: getMargin(left: 0, top: 0, right: 0),
                     child: Stack(children: [
                       Align(
                           alignment: Alignment.centerLeft,
@@ -40,7 +40,7 @@ class PerfilProfessorSnapeScreen
                                                   },
                                                   child: Padding(
                                                       padding: getPadding(
-                                                          top: 8, bottom: 117),
+                                                          top: 0, bottom: 117),
                                                       child: CommonImageView(
                                                           imagePath: ImageConstant
                                                               .img9004707menuna,
@@ -390,7 +390,7 @@ class PerfilProfessorSnapeScreen
                                                 children: [
                                                   Padding(
                                                       padding:
-                                                      getPadding(bottom: 64),
+                                                      getPadding(bottom: 40),
                                                       child: CommonImageView(
                                                           imagePath: ImageConstant
                                                               .imgAluno241X41,
@@ -439,7 +439,7 @@ class PerfilProfessorSnapeScreen
                                         alignment: Alignment.center,
                                         child: Padding(
                                             padding: getPadding(
-                                                left: 24, top: 10, right: 24),
+                                                left: 24, top: 14, right: 24),
                                             child: Row(
                                                 mainAxisAlignment:
                                                 MainAxisAlignment.start,
@@ -449,7 +449,7 @@ class PerfilProfessorSnapeScreen
                                                 children: [
                                                   Padding(
                                                       padding:
-                                                      getPadding(bottom: 64),
+                                                      getPadding(bottom: 10),
                                                       child: ClipRRect(
                                                           borderRadius:
                                                           BorderRadius.circular(
@@ -464,6 +464,9 @@ class PerfilProfessorSnapeScreen
                                                               width:
                                                               getSize(41.00)))),
                                                   Container(
+                                                      width:
+                                                      getHorizontalSize(
+                                                          230.00),
                                                       margin: getMargin(left: 8),
                                                       decoration: AppDecoration
                                                           .fillGray100
@@ -486,7 +489,7 @@ class PerfilProfessorSnapeScreen
                                                                     left: 24,
                                                                     top: 12,
                                                                     right: 24,
-                                                                    bottom: 63),
+                                                                    bottom: 24),
                                                                 child: Text(
                                                                     "msg_n_o_tirou_nenhu"
                                                                         .tr,
@@ -505,7 +508,7 @@ class PerfilProfessorSnapeScreen
                                         alignment: Alignment.center,
                                         child: Padding(
                                             padding: getPadding(
-                                                left: 24, top: 34, right: 24),
+                                                left: 24, top: 14, right: 24),
                                             child: Row(
                                                 mainAxisAlignment:
                                                 MainAxisAlignment.start,
@@ -515,7 +518,7 @@ class PerfilProfessorSnapeScreen
                                                 children: [
                                                   Padding(
                                                       padding:
-                                                      getPadding(bottom: 64),
+                                                      getPadding(bottom: 30),
                                                       child: CommonImageView(
                                                           imagePath: ImageConstant
                                                               .imgAluno241X41,
@@ -547,7 +550,7 @@ class PerfilProfessorSnapeScreen
                                                                     left: 14,
                                                                     top: 9,
                                                                     right: 14,
-                                                                    bottom: 59),
+                                                                    bottom: 15),
                                                                 child: Text(
                                                                     "msg_n_o_cumpre_o_pl"
                                                                         .tr,
@@ -564,7 +567,7 @@ class PerfilProfessorSnapeScreen
                                         alignment: Alignment.center,
                                         child: Padding(
                                             padding: getPadding(
-                                                left: 24, top: 48, right: 24),
+                                                left: 24, top: 14, right: 24),
                                             child: Row(
                                                 mainAxisAlignment:
                                                 MainAxisAlignment.start,
@@ -574,7 +577,7 @@ class PerfilProfessorSnapeScreen
                                                 children: [
                                                   Padding(
                                                       padding:
-                                                      getPadding(bottom: 64),
+                                                      getPadding(bottom: 50),
                                                       child: CommonImageView(
                                                           imagePath: ImageConstant
                                                               .imgAluno241X41,
@@ -606,7 +609,7 @@ class PerfilProfessorSnapeScreen
                                                                     left: 14,
                                                                     top: 9,
                                                                     right: 14,
-                                                                    bottom: 20),
+                                                                    bottom: 15),
                                                                 child: Text(
                                                                     "msg_n_o_cumpre_o_pl"
                                                                         .tr,
