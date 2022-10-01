@@ -49,6 +49,8 @@ final Map<String, String> enUs = {
   "lbl_eval": "eval",
   "msg_n_o_cumpre_o_pl":
       "Não cumpre o Plano de Ensino e me transformou numa lesma quando fiz uma pergunta em aula.",
+  "msg_apesar": "apesar de não tirar as dúvidas, achei boa a aula",
+  "msg_prova": "conteúdo da prova não condiz com o passado em aula",
   "lbl_login": "Login",
   "lbl_nome_completo": "Nome completo:",
   "msg_avalia_o_carva": "Avaliação Carvalho",

@@ -458,7 +458,7 @@ class PerfilProfessorSnapeScreen
                                                           child: CommonImageView(
                                                               imagePath:
                                                               ImageConstant
-                                                                  .imgAluno2,
+                                                                  .imgAluno241X41,
                                                               height:
                                                               getSize(41.00),
                                                               width:
@@ -521,7 +521,7 @@ class PerfilProfessorSnapeScreen
                                                       getPadding(bottom: 30),
                                                       child: CommonImageView(
                                                           imagePath: ImageConstant
-                                                              .imgAluno241X41,
+                                                              .imgAluno2,
                                                           height: getSize(41.00),
                                                           width: getSize(41.00))),
                                                   Container(
@@ -552,7 +552,7 @@ class PerfilProfessorSnapeScreen
                                                                     right: 14,
                                                                     bottom: 15),
                                                                 child: Text(
-                                                                    "msg_n_o_cumpre_o_pl"
+                                                                    "msg_apesar"
                                                                         .tr,
                                                                     maxLines: null,
                                                                     textAlign:
@@ -580,7 +580,7 @@ class PerfilProfessorSnapeScreen
                                                       getPadding(bottom: 50),
                                                       child: CommonImageView(
                                                           imagePath: ImageConstant
-                                                              .imgAluno241X41,
+                                                              .imgAluno1,
                                                           height: getSize(41.00),
                                                           width: getSize(41.00))),
                                                   Container(
@@ -611,7 +611,7 @@ class PerfilProfessorSnapeScreen
                                                                     right: 14,
                                                                     bottom: 15),
                                                                 child: Text(
-                                                                    "msg_n_o_cumpre_o_pl"
+                                                                    "msg_prova"
                                                                         .tr,
                                                                     maxLines: null,
                                                                     textAlign:
